@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Businnesly | Galería</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/html_icon.ico">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="about.html">Sobre</a>
+        <a href="#">Galería</a>
+        <a href="contact.html">Contacto</a>
+        <a href="../en/index.html">Lenguaje</a>
+        <img src="../images/espana.svg" class="boton__img">
+      </nav>
+    </header>
+    <!-- Main -->
+    <main>
+      <div class="gallery-section">
+        <div class="inner-width">
+          <div class="border"></div>
+          <div class="gallery">
+            <a href="../images/galleria/1.jpg" class="image">
+              <img src="../images/galleria/1.jpg" alt="">
+            </a>
+
+            <a href="../images/galleria/2.jpg" class="image">
+              <img src="../images/galleria/2.jpg" alt="">
+            </a>
+
+            <a href="../images/galleria/3.jpg" class="image">
+              <img src="../images/galleria/3.jpg" alt="">
+            </a>
+
+            <a href="../images/galleria/4.png" class="image">
+              <img src="../images/galleria/4.png" alt="">
+            </a>
+
+            <a href="../images/galleria/5.png" class="image">
+              <img src="../images/galleria/5.png" alt="">
+            </a>
+
+            <a href="../images/galleria/6.png" class="image">
+              <img src="../images/galleria/6.png" alt="">
+            </a>
+
+            <a href="../images/galleria/7.png" class="image">
+              <img src="../images/galleria/7.png" alt="">
+            </a>
+
+            <a href="../images/galleria/8.png" class="image">
+              <img src="../images/galleria/8.png" alt="">
+            </a>
+            </div>
+        </div>
+      </div>
+
+      <script>
+        $(".gallery").magnificPopup({
+          delegate: 'a',
+          type: 'image',
+          gallery:{
+            enabled: true
+          }
+        });
+      </script>
+    </main>
+    <!-- Footer-->
+    <footer>
+      <div>
+        <p>Puedes seguirnos en nuestras redes sociales:</p>
+        <ul>
+          <li><a href="https://twitter.com/?lang=es" target="_blank"><img src="../images/footer/twitter.svg" alt="twitter"></a></li>
+          <li><a href="https://es-es.facebook.com/" target="_blank"><img src="../images/footer/facebook.svg" alt="facebook"></a></li>
+          <li><a href="https://es.linkedin.com/" target="_blank"><img src="../images/footer/instagram.svg" alt="instagram"></a></li>
+          <li><a href="https://www.instagram.com/?hl=es" target="_blank"><img src="../images/footer/linkedin.svg" alt="linkedin"></a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
